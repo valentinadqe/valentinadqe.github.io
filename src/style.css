@@ -1,0 +1,221 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+section {
+    background-color: f6f7f9;
+
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+.main {
+    background-color:f6f7f9;
+    height: 100vh;
+    color: rgb(23, 23, 23);
+}
+
+footer {
+    background-color: f6f7f9;
+    color: rgb(23, 23, 23);
+    text-align: center;
+    padding: 80px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+ul.show {
+    display: block;
+}
+
+li {
+    /* width: 200px; */
+    text-decoration: none;
+
+
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+    color:rgb(23, 23, 23) 
+}
+
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-text {
+margin-left: 80px;
+margin-bottom: 200px;
+
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color:grey;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.button:hover {
+    background-color: rgb(141, 125, 187);
+    color: black
+}
+
+.button:active {
+    background-color: grey;
+    color: grey
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    max-height: 25px;
+    margin: 30px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.social {
+    margin: 10px;
+}
+
+.sub-section {
+   
+    justify-content: space-around;
+    padding: 60px;
+    background: rgb(255, 255, 255);
+
+}
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience-card {
+    width: 600px;
+    height: 460px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .experience-container {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+}
+
+.experience-image {
+    margin: 25px 25px 25px 25px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 60px;
+    background: rgb(255, 255, 255);
+    display: block;
+    
+}
+
+.tag-background {
+    background-color: rgb(141, 125, 187);
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+@media only screen and (max-width: 1000px) {
+.hamburger{
+    display: block;
+    border: 0;
+    background-color: transparent;
+    font-size: 30px;
+    margin: 20px;
+    background-color:white)
+    align-self: flex-end;
+
+}
+ 
+ul {
+    display: none;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column-reverse;
+}
+} 
